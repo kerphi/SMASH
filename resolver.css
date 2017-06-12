@@ -1,0 +1,95 @@
+.main {
+    background-image: -webkit-linear-gradient(left,
+    #FF8800,
+    #FF8800 14.285%,
+    #FBBA00 14.285%,
+    #FBBA00 28.57%,
+    #7CB61F 28.57%,
+    #7CB61F 42.855%,
+    #22BBEA 42.855%,
+    #22BBEA 57.14%,
+    #0071B9 57.14%,
+    #0071B9 71.425%,
+    #5943FF 71.425%,
+    #5943FF 85.71%,
+    #B243FF 85.71%);
+    background-image: -ms-linear-gradient(left,
+    #FF8800,
+    #FF8800 14.285%,
+    #FBBA00 14.285%,
+    #FBBA00 28.57%,
+    #7CB61F 28.57%,
+    #7CB61F 42.855%,
+    #22BBEA 42.855%,
+    #22BBEA 57.14%,
+    #0071B9 57.14%,
+    #0071B9 71.425%,
+    #5943FF 71.425%,
+    #5943FF 85.71%,
+    #B243FF 85.71%);    
+    background-image: linear-gradient(to right, 
+    #FF8800,
+    #FF8800 14.285%,
+    #FBBA00 14.285%,
+    #FBBA00 28.57%,
+    #7CB61F 28.57%,
+    #7CB61F 42.855%,
+    #22BBEA 42.855%,
+    #22BBEA 57.14%,
+    #0071B9 57.14%,
+    #0071B9 71.425%,
+    #5943FF 71.425%,
+    #5943FF 85.71%,
+    #B243FF 85.71%);
+    background-size: 100% 3px;
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+}
+
+.button-success {
+    background: rgb(66, 184, 221);
+}
+
+.button-small {
+    font-size: 75%;
+}
+
+.material-icons {
+  font-size: 18px;
+  vertical-align: sub;
+}
+
+.main {
+    padding: 5em;
+    font-size: 18px;
+    color: #444;
+}
+
+a {
+    color: #3b8bba;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    padding: 2px 0 2px;
+}
+
+.tooltip {
+    padding-top: 10px;
+}
+
+.altmetric-embed {
+    position: absolute;
+    left: 12px;
+    bottom: 10px;
+    opacity: 0.8;
+}
+
+@media (max-width: 62em) {
+        .main {
+            padding: 2em;
+        }
+    }
+
+}
