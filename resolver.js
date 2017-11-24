@@ -739,7 +739,7 @@ $j(document).ready(function() { // Wait until the original page loads
                 if (data.hits[0] !== undefined) {
                     var urlISTEX = data.hits[0]['id'];
                     urlISTEX = urlISTEX.match(/^\S[^,]+/ig);
-                    $j('#dispoISTEX').html('<a class=\"pure-button button-small button-success\" target=\"_blank\" href=\"http:\/\/lama.univ-amu.fr/login?url=https:\/\/api.istex.fr\/document\/' + urlISTEX + '\/fulltext\/pdf\" onClick="ga(\'send\', \'event\', \'api\', \'istex\');">ISTEX</a>');
+                    $j('#dispoISTEX').html('<a class=\"pure-button button-small button-success\" target=\"_blank\" href=\"http:\/\/lama.univ-amu.fr/login?url=https:\/\/api.istex.fr\/document\/' + urlISTEX + '\/fulltext\/pdf?sid=smash\" onClick="ga(\'send\', \'event\', \'api\', \'istex\');">ISTEX</a>');
                 }
             }
         });
